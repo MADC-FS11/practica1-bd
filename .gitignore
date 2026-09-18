@@ -1,0 +1,17 @@
+# Visual Studio Code
+.vscode/
+
+# Variables de entorno
+.env
+
+# Datos locales de PostgreSQL
+data/
+pgdata/
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
