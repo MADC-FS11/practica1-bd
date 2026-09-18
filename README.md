@@ -19,3 +19,11 @@
 
 Este repositorio contiene el desarrollo y las evidencias correspondientes
 a la Práctica 1 de la unidad de aprendizaje Bases de Datos.
+
+## Tecnologías utilizadas
+
+- Git
+- GitHub
+- Docker
+- PostgreSQL
+- pgAdmin 4
