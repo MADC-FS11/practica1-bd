@@ -1,0 +1,5 @@
+Se detuvo y eliminó el contenedor pg-practica1 mediante Docker Compose, conservando el volumen persistente. 
+Posteriormente se volvió a levantar el servicio y se verificó mediante psql que la base de datos practica1 
+continuaba existiendo, demostrando la persistencia de los datos.
+
+*Ver las imágenes en formato .PNG adjuntadas en esta carpeta para la evidencia correspondiente a la sección
