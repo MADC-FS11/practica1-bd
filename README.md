@@ -6,14 +6,21 @@
 **Grupo:** 3CV2  
 **Carrera:** Ingeniería en Sistemas Computacionales
 
-## Índice
+## Índice (Carpetas y su contenido)
 
-1. Control de versiones con Git y GitHub y SGDB con Docker (.pdf)
-2. Estado del arte: artículos científicos (.pdf)
-3. Investigación: ¿Qué es una base de datos? (.pdf)
-4. Artículo científico 1 (.pdf)
-5. Artículo científico 2 (.pdf)
-6. Caso de estudio y modelo entidad-relación 
+1. Docs: Parte A de los ejercicios 1 y 2 de la P1, estado del arte, investigación BD, 2/3 artículos y el caso de estudio elegido 
+Nota: todos son documentos PDF
+
+2. Entorno: compose.yaml
+
+3. Evidencias: Docker y Git 
+Nota: Son las evidencias de la Parte B de los ejercicios 1 y 2 de la P1 y contiene archivos .jpg .png y uno de texto.
+
+4. Modelo: diagrama hecho con dbdiagram.io en .png
+
+5. Archivo .gitignore
+
+6. Archivo README.md (es el que se encuentra leyendo)
 
 ## Descripción
 
