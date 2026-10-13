@@ -1,8 +1,12 @@
-# Práctica 1 - Bases de Datos
+# Prácticas - Bases de Datos
+
+**Live website:** [Ver sitio web](https://madc-fs11.github.io/practica1-bd/)
+
+**Project repository:** [Ver repositorio](https://github.com/MADC-FS11/practica1-bd)
 
 ## Datos del alumno
 
-**Nombre:** Marco Antonio Dichi Chong
+**Nombre:** Marco Dichi
 **Grupo:** 3CV2  
 **Carrera:** Ingeniería en Sistemas Computacionales
 

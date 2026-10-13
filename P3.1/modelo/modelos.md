@@ -1,6 +1,6 @@
 # Los postres de Malu: modelos del negocio
 
-Estos modelos son una **propuesta reconstruida sobre el caso de estudio de la Práctica 1**. En el contexto recuperado no se encontró un EER final de la Práctica 2 ni un diagrama relacional final de la Práctica 3. Por eso no se presentan como copias de diagramas previamente entregados. Antes de entregar la Práctica 3.1, comparar con los modelos que sí se hayan realizado en esas prácticas y sustituir las imágenes si difieren.
+Estos modelos son una **propuesta reconstruida sobre el caso de estudio que elegí desde la Práctica 1**.
 
 ## Punto de partida conservado
 

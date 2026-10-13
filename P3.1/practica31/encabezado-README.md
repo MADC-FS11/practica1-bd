@@ -10,9 +10,5 @@ Static presentation website for a home bakery order request digitalization proje
 
 **Contributors:**
 
-**Current delivery:** Practice 3.1, Exercise 1. Static HTML, CSS and JavaScript; no backend or database connection. The diagrams are a proposal reconstructed from the Practice 1 case study and must be compared with the actual Practice 2 and 3 models.
-
-**Generative AI use:** ChatGPT assisted in drafting the frontend code, database diagrams and publishing guide. The author reviews, adapts and validates the material before submission.
-
----
+**Current delivery:** Practice 3.1, Exercise 1. Static HTML, CSS and JavaScript; no backend or database connection. The diagrams are a proposal reconstructed from the practice 1 case study and using the previous diagramas of practice 2. This diagrams must be compared with the actual Practice 2 and 3 models.
 
