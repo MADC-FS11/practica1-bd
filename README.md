@@ -1,4 +1,4 @@
-# Práctica 1 - Bases de Datos
+# Prácticas - Bases de Datos
 
 ## Datos del alumno
 
@@ -6,6 +6,7 @@
 **Grupo:** 3CV2  
 **Carrera:** Ingeniería en Sistemas Computacionales
 
+#Práctica 1:
 ## Índice (Carpetas y su contenido)
 
 1. Docs: Parte A de los ejercicios 1 y 2 de la P1, estado del arte, investigación BD, 2/3 artículos y el caso de estudio elegido 
