@@ -26,7 +26,8 @@ Nota: Son las evidencias de la Parte B de los ejercicios 1 y 2 de la P1 y contie
 ## Descripción
 
 Este repositorio contiene el desarrollo y las evidencias correspondientes
-a la Práctica 1 de la unidad de aprendizaje Bases de Datos.
+a la Práctica 1, 2 y 3 de la unidad de aprendizaje Bases de Datos.
+Eventualmente se irán añadiendo más o de lo contrario se creará un repositorio nuevo.
 
 ## Tecnologías utilizadas
 
