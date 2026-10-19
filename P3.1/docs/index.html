@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Los postres de Malu: propuesta para digitalizar la recepción de solicitudes de pedidos de un negocio de repostería. Modelos EER y relacional del proyecto.">
+  <meta name="theme-color" content="#542b34">
+  <title>Los postres de Malu · El proyecto</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Los postres de Malu, inicio">
+        <span class="brand-mark" aria-hidden="true">m.</span>
+        <span>Los postres <strong>de Malu</strong></span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#proyecto">El proyecto</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#repositorios">Repositorios <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero container" id="inicio" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Repostería artesanal · Proyecto de digitalización</p>
+        <h1 id="titulo">Los postres<br>de <em>Malu.</em></h1>
+        <p class="hero-lead">Cada pedido merece<br>estar bien organizado.</p>
+        <p class="hero-description">Una propuesta para recibir solicitudes de pedidos y organizar la información de un negocio de repostería: clientes, productos, fechas e inventario.</p>
+        <a class="button primary" href="#modelos">Explorar el modelo de datos <span aria-hidden="true">↓</span></a>
+        <p class="hero-caption">Bases de Datos · IPN / ESCOM · Práctica 3.1</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-caption">HECHO CON CUIDADO</div>
+        <div class="dessert-plate">
+          <svg viewBox="0 0 460 440" role="presentation">
+            <defs>
+              <linearGradient id="cake" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bd7a64"/><stop offset="1" stop-color="#975443"/></linearGradient>
+              <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff9ec"/><stop offset="1" stop-color="#f0d9b9"/></linearGradient>
+            </defs>
+            <ellipse cx="230" cy="349" rx="176" ry="37" fill="#522a32" opacity=".08"/>
+            <ellipse cx="230" cy="330" rx="177" ry="48" fill="#faf1dd" stroke="#d9bf96" stroke-width="2"/>
+            <ellipse cx="230" cy="326" rx="150" ry="34" fill="none" stroke="#d9bf96" stroke-width="2"/>
+            <path d="M113 191 Q230 156 347 191 L347 307 Q230 346 113 307Z" fill="url(#cake)"/>
+            <path d="M113 236 Q230 274 347 236 L347 253 Q230 290 113 253Z" fill="#f6e3c7"/>
+            <path d="M113 284 Q230 322 347 284 L347 293 Q230 331 113 293Z" fill="#d79d83"/>
+            <ellipse cx="230" cy="191" rx="117" ry="37" fill="url(#cream)"/>
+            <path d="M113 190 Q130 218 143 210 Q155 198 169 215 Q182 235 197 222 Q217 205 232 223 Q249 244 264 228 Q279 209 295 224 Q314 239 327 217 Q338 201 347 191 L347 214 Q230 250 113 214Z" fill="#fff6e6"/>
+            <g fill="#fff9f0" stroke="#efd6b2" stroke-width="2">
+              <path d="M175 172 Q153 166 165 152 Q160 143 173 138 Q171 122 184 120 Q197 136 194 144 Q210 153 194 165 Q193 176 175 172Z"/>
+              <path d="M229 158 Q207 155 219 140 Q214 129 227 124 Q225 108 239 107 Q252 121 249 129 Q265 140 249 151 Q247 165 229 158Z"/>
+              <path d="M279 179 Q257 174 269 159 Q264 148 277 144 Q275 128 289 127 Q302 141 299 149 Q314 160 299 170 Q297 184 279 179Z"/>
+            </g>
+            <g fill="#893846"><circle cx="172" cy="137" r="10"/><circle cx="228" cy="122" r="10"/><circle cx="281" cy="144" r="10"/></g>
+            <path d="M228 114 Q230 98 243 94" fill="none" stroke="#58715a" stroke-width="4" stroke-linecap="round"/>
+            <path d="M239 104 Q256 91 260 105 Q250 115 239 104Z" fill="#687d60"/>
+            <g fill="#d9ac65"><circle cx="68" cy="177" r="4"/><circle cx="378" cy="250" r="4"/><circle cx="350" cy="115" r="3"/></g>
+            <path d="M75 265 l9 0 m-4.5-4.5 v9 M363 163 l12 0 m-6-6 v12" stroke="#bfa371" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="order-note"><span class="note-label">DE LA IDEA AL PEDIDO</span><p>Cliente + producto<br><strong>+ fecha de entrega</strong></p><span class="note-line"></span><small>Información clara desde el inicio.</small></div>
+        <div class="art-seal">Repostería<br><em>con orden</em></div>
+      </div>
+    </section>
+
+    <section class="project-section" id="proyecto" aria-labelledby="proyecto-titulo">
+      <div class="container">
+        <div class="section-top"><p class="eyebrow">01 / El proyecto</p><p class="section-kicker">Una necesidad real, un modelo claro.</p></div>
+        <div class="project-grid">
+          <div><h2 id="proyecto-titulo">De las libretas<br>a la información<br><em>organizada.</em></h2></div>
+          <div class="project-details">
+            <h3>Problema que atiende</h3>
+            <p>Recepción de solicitudes de pedidos para la digitalización de un negocio de repostería.</p>
+            <p class="muted">Actualmente, los pedidos llegan por WhatsApp y se registran en libretas. La información dispersa dificulta consultar fechas de entrega, precios, existencias e historial de clientes.</p>
+            <dl class="objectives">
+              <div><dt>Recepción</dt><dd>Reunir los datos del cliente y los productos solicitados.</dd></div>
+              <div><dt>Seguimiento</dt><dd>Organizar fechas, cantidades y estados de cada pedido.</dd></div>
+              <div><dt>Control</dt><dd>Consultar productos terminados, existencias e historial.</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="team-row"><h3>Integrantes</h3><div class="team-blank" aria-label="Campo de integrantes en blanco"></div></div>
+      </div>
+    </section>
+
+    <section class="container models-section" id="modelos" aria-labelledby="modelos-titulo">
+      <div class="section-top"><p class="eyebrow">02 / Modelo de datos</p><p class="section-kicker">La estructura detrás de cada pedido.</p></div>
+      <div class="models-heading"><h2 id="modelos-titulo">Así se conecta<br><em>el negocio.</em></h2><p>Clientes, cuentas, productos e inventario se relacionan con los pedidos y sus detalles. Las ventas se obtienen de los pedidos entregados.</p></div>
+      <div class="model-tabs" role="tablist" aria-label="Elegir modelo" hidden>
+        <button id="tab-eer" type="button" role="tab" aria-selected="true" aria-controls="panel-eer" tabindex="0">Modelo EER <span>Conceptual</span></button>
+        <button id="tab-relacional" type="button" role="tab" aria-selected="false" aria-controls="panel-relacional" tabindex="-1">Diagrama relacional <span>Lógico</span></button>
+      </div>
+      <article class="diagram-panel" id="panel-eer" aria-labelledby="tab-eer">
+        <div class="diagram-bar"><div><h3>Modelo entidad–relación extendido</h3><p>Cardinalidades, entidades débiles y especialización.</p></div><span class="model-tag">EER</span></div>
+        <a class="diagram-image-link" href="assets/modelo-eer.svg" target="_blank" rel="noopener" data-diagram="eer" aria-label="Ampliar el modelo EER">
+          <img src="assets/modelo-eer.svg" alt="Modelo EER de Los postres de Malu: Cliente solicita Pedido; Pedido contiene DetallePedido; Producto tiene Inventario; Inventario registra MovimientoInventario. Usuario se especializa de forma total y disjunta en CuentaCliente y CuentaPersonal." width="2400" height="1780" loading="lazy">
+          <span class="image-hint">Ampliar imagen <span aria-hidden="true">↗</span></span>
+        </a>
+        <div class="diagram-footer"><p>DetallePedido y MovimientoInventario son entidades débiles. CuentaCliente y CuentaPersonal especializan a Usuario.</p><a href="assets/modelo-eer.png" download>Descargar PNG <span aria-hidden="true">↓</span></a></div>
+      </article>
+      <article class="diagram-panel" id="panel-relacional" aria-labelledby="tab-relacional">
+        <div class="diagram-bar"><div><h3>Diagrama del modelo relacional</h3><p>Tablas, claves primarias, foráneas y restricciones de unicidad.</p></div><span class="model-tag">Relacional</span></div>
+        <a class="diagram-image-link" href="assets/diagrama-relacional.svg" target="_blank" rel="noopener" data-diagram="relacional" aria-label="Ampliar el diagrama relacional">
+          <img src="assets/diagrama-relacional.svg" alt="Diagrama relacional con nueve tablas: usuario, cuenta_cliente, cuenta_personal, cliente, pedido, detalle_pedido, producto, inventario y movimiento_inventario. Incluye PK, FK y claves compuestas de las entidades débiles." width="2400" height="1880" loading="lazy">
+          <span class="image-hint">Ampliar imagen <span aria-hidden="true">↗</span></span>
+        </a>
+        <div class="diagram-footer"><p>Las claves compuestas identifican cada renglón de pedido y cada movimiento dentro de su inventario.</p><a href="assets/diagrama-relacional.png" download>Descargar PNG <span aria-hidden="true">↓</span></a></div>
+      </article>
+      <p class="model-context">Modelos reconstruidos a partir del caso de la Práctica 1. La ampliación EER y su transformación relacional son una propuesta para cotejar con las prácticas 2 y 3.</p>
+      <div class="business-rule"><span aria-hidden="true">↳</span><p><strong>Una regla importante:</strong> el precio de cada producto se conserva en el detalle del pedido, aunque el precio del catálogo cambie después.</p></div>
+    </section>
+
+    <section class="repository-section" id="repositorios" aria-labelledby="repositorios-titulo">
+      <div class="container">
+        <div class="section-top"><p class="eyebrow">03 / Repositorios</p><p class="section-kicker">Código y continuidad del proyecto.</p></div>
+        <h2 id="repositorios-titulo">El trabajo,<br><em>en un solo lugar.</em></h2>
+        <div class="repository-grid">
+          <article class="repository-card"><span class="repo-number">01</span><h3>Repositorio del proyecto</h3><p>Documentación, modelos y código de Los postres de Malu.</p><a id="repo-equipo" class="repo-link" aria-disabled="true">Enlace por configurar <span aria-hidden="true">↗</span></a></article>
+          <article class="repository-card"><span class="repo-number">02</span><h3>Fork del proyecto asignado</h3><p>Copia de trabajo de Data_Warehouse_static, asignado en la Práctica 2.</p><a id="repo-fork" class="repo-link" aria-disabled="true">Enlace por configurar <span aria-hidden="true">↗</span></a></article>
+        </div>
+        <p id="config-notice" class="config-notice">Antes de publicar, agrega las dos direcciones de GitHub en <code>config.js</code>.</p>
+        <noscript><p class="config-notice">Activa JavaScript para cargar los enlaces configurados. Los modelos pueden abrirse directamente como imágenes.</p></noscript>
+      </div>
+    </section>
+
+    <aside class="container scope-note"><span class="scope-label">Estado de esta entrega</span><p>Sitio estático de presentación. La recepción real de pedidos, el inicio de sesión y la conexión a la base de datos corresponden a una etapa posterior.</p></aside>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span class="footer-brand">Los postres de <em>Malu.</em></span><p>Bases de Datos · Práctica 3.1 · Ejercicio 1</p><a href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a></div></footer>
+
+  <dialog id="visor" class="image-dialog" aria-labelledby="visor-titulo">
+    <div class="viewer-toolbar"><h2 id="visor-titulo">Modelo de datos</h2><div class="viewer-actions"><button type="button" id="zoom-out" aria-label="Reducir imagen">−</button><output id="zoom-value" aria-live="polite">100 %</output><button type="button" id="zoom-in" aria-label="Ampliar imagen">+</button><a id="visor-original" target="_blank" rel="noopener">Abrir SVG</a><button type="button" id="cerrar-visor" aria-label="Cerrar visor">Cerrar ×</button></div></div>
+    <p class="viewer-instructions">Usa + y − para acercar. Desplázate dentro de la imagen para ver sus detalles. Escape cierra el visor.</p>
+    <div class="viewer-scroll"><img id="visor-imagen" alt="" width="2400" height="1780"></div>
+  </dialog>
+</body>
+</html>
