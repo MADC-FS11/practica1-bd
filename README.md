@@ -4,12 +4,14 @@
 
 **Project repository:** [Ver repositorio](https://github.com/MADC-FS11/practica1-bd)
 
+
 ## Datos del alumno
 
 **Nombre:** Marco Dichi
 **Grupo:** 3CV2  
 **Carrera:** Ingeniería en Sistemas Computacionales
 
+# Práctica 1:
 ## Índice (Carpetas y su contenido)
 
 1. Docs: Parte A de los ejercicios 1 y 2 de la P1, estado del arte, investigación BD, 2/3 artículos y el caso de estudio elegido 
@@ -29,7 +31,8 @@ Nota: Son las evidencias de la Parte B de los ejercicios 1 y 2 de la P1 y contie
 ## Descripción
 
 Este repositorio contiene el desarrollo y las evidencias correspondientes
-a la Práctica 1 de la unidad de aprendizaje Bases de Datos.
+a la Práctica 1, 2 y 3 de la unidad de aprendizaje Bases de Datos.
+Eventualmente se irán añadiendo más o de lo contrario se creará un repositorio nuevo.
 
 ## Tecnologías utilizadas
 
