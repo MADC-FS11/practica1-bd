@@ -19,8 +19,8 @@
 
 | Ejercicio | Archivos | Estado |
 | --- | --- | --- |
-| 1. Git y Docker | Evidencias en [evidencias git](evidencias%20git/); Compose de P1 en [entorno](../entorno/compose.yaml) |
-| 2. Proyecto asignado | [Levantamiento](proyecto-asignado/levantamiento.md), [SQL](proyecto-asignado/consulta.sql), [evidencias](proyecto-asignado/evidencias/) 
+| 1. Git y Docker | Evidencias en [evidencias git](evidencias%20git/); Compose de P1 en [entorno](../entorno/compose.yaml) | Evidencias de Git y Docker 
+| 2. Proyecto asignado | [Levantamiento](proyecto-asignado/levantamiento.md), [SQL](proyecto-asignado/consulta.sql), [evidencias](proyecto-asignado/evidencias/) | Evidencias del proyecto asignado
 | 3. Artículos | [Resúmenes](articulos/resumenes.pdf), [fuentes](articulos/fuentes-de-lectura.md) | Tres textos de lectura preparados con fuentes públicas actuales |
 | 4. Proyecto propio | [Requisitos y justificación](proyecto-propio/requisitos-ampliados.pdf), [Chen](proyecto-propio/eer-chen.png), [Crow’s Foot](proyecto-propio/eer-crows-feet.png), [DBML](proyecto-propio/modelo-relacional.dbml) | Preparado para revisión del estudiante |
 | 5. Proyecto asignado | [EER completo](proyecto-asignado/eer.png), [correspondencia](proyecto-asignado/correspondencia-con-el-esquema.pdf) | Reconstrucción fundamentada en SQL y artículo |
